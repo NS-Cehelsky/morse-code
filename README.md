@@ -19,3 +19,21 @@ gcc main.c morse.c -o morse
 ```
 
 ## Example output
+```
+.... . .-.. .-.. ---
+Code is valid!
+Code is invalid!
+WHATHIN
+```
+
+## Project structure
+```
+morse-code/
+├── main.c        # Entry point and demo
+├── morse.c       # Encoder and decoder logic
+└── morse.h       # Function declarations
+```
+
+## Built with
+- C
+- Standard C libraries only
